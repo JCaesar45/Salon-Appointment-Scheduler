@@ -47,7 +47,6 @@
 
 ### Installation
 
-```bash
 # Clone the repository
 git clone https://github.com/JCaesar45/luxe-salon.git
 
