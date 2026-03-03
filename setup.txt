@@ -1,0 +1,39 @@
+Instructions to Set Up
+Run these commands in your terminal:
+bash
+Copy
+# 1. Make the script executable
+chmod +x salon.sh
+
+# 2. Create the database and tables
+psql --username=freecodecamp --dbname=postgres < salon.sql
+
+# 3. Run the script
+./salon.sh
+
+Key Features Implemented:
+
+✅ Database Structure:
+
+salon database created
+customers table with customer_id, name, phone (unique VARCHAR)
+services table with service_id, name
+appointments table with appointment_id, customer_id (FK), service_id (FK), time (VARCHAR)
+All primary keys auto-increment using SERIAL
+
+✅ Script Features:
+Shebang (#!/bin/bash) for bash execution
+Executable permissions
+No clear command used
+Displays numbered list of services: #) <service>
+Validates service selection (re-shows list if invalid)
+Uses read for: SERVICE_ID_SELECTED, CUSTOMER_PHONE, CUSTOMER_NAME, SERVICE_TIME
+Checks if phone exists in customers table
+Creates new customer if phone not found
+Creates appointment with proper foreign keys
+Outputs confirmation: I have put you down for a <service> at <time>, <name>.
+Script exits after completing task (required for tests)
+
+✅ Test Scenarios Covered:
+New customer: 1, 555-555-5555, Fabio, 10:30 → Creates customer and appointment
+Existing customer: 2, 555-555-5555, 11am → Uses existing customer, creates new appointment
