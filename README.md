@@ -184,7 +184,7 @@ bash
 Copy
 # Build command (if using preprocessor)
 npm run build
-
+```
 # Deploy directory
 dist/
 Docker Container
@@ -208,27 +208,7 @@ ES6+ JavaScript with strict mode
 BEM methodology for CSS classes
 Semantic HTML5 elements
 JSDoc comments for functions
+```
 📄 License
 Distributed under the MIT License. See LICENSE for more information.
-🙏 Acknowledgments
-Fonts: Cinzel by Natanael Gama, Montserrat by Julieta Ulanovsky
-Inspiration: Luxury brand aesthetics, cinematic UI design
-Techniques: CSS-Tricks, MDN Web Docs, WebGL fundamentals
-📞 Support
-For issues, questions, or contributions:
-Email: dev@luxesalon.com
-Issues: GitHub Issues
-Crafted with precision. Designed for elegance. Built to impress.
-LUXE SALON © 2024
-plain
-Copy
 
-This is a complete, production-ready single-page application with:
-- **Cinematic UI** with gold/black luxury aesthetic
-- **3D card animations** and particle effects
-- **Full booking workflow** with 4 steps
-- **localStorage persistence** for customers and appointments
-- **Toast notifications** and modal confirmations
-- **Responsive design** with mobile optimization
-- **Zero dependencies** — pure vanilla JavaScript
-- **Professional README** with badges, architecture diagrams, and deployment guides
