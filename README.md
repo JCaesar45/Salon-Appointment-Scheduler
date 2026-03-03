@@ -7,7 +7,7 @@
 
 > **A revolutionary web-based salon appointment management system featuring cinematic UI/UX, 3D interactions, and enterprise-grade functionality.**
 
-![Luxe Salon Preview](https://via.placeholder.com/1200x600/0a0a0a/D4AF37?text=LUXE+SALON+PREVIEW)
+![Luxe Salon Preview](https://codepen.io/JCaesar45/full/ZYpQKXg)
 
 ---
 
